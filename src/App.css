@@ -1,0 +1,75 @@
+.Content {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Skranji';
+  /* background-color: coral; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+button.Button:disabled {
+  opacity: 0.3;
+}.disabled {
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+
+.Background {
+  background-image: url('../src/images/algoritms.png');
+  margin-top: -10px;
+}
+
+.Input-Label {
+  margin: 20px 20px 40px 0px;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+.Alert-Label {
+  margin: 20px 0px;
+    font-size: 23px;
+    font-family: monospace;
+    color:red;
+}
+
+input[type="file"] {
+  cursor: pointer !Important;
+}
+.File-Input {
+  border: none;
+  padding: 12px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 2px solid rgba(0, 87, 128, 0.411);
+  margin-right: 20px;
+}
+
+.Result-Box{
+  border: 2px solid black;
+    min-height: 50px;
+    overflow-y: scroll;
+    flex: 1 1;
+    max-width: 100vh;
+}
+
+.BackToUploadDiv {
+  margin-left: 34%;
+  margin-top: 20px;
+}
